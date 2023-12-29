@@ -1,0 +1,42 @@
+body{
+    background-color: blue;
+    background-image: url(img/restaurante.jpg);
+    background-size: cover;/*ajusta la imagen*/
+}
+h1{
+    text-align: center;
+    background-color: bisque;
+    padding: 20px;
+    margin: 20px ; 
+    border-radius: 10px;
+}
+.menu{
+    display: flex;/* ordena horizontalmente mis elementos dentro del div*/
+    justify-content: center;/*ordena mis elementos centralmente*/
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan a la siguiente línea si no hay espacio suficiente */
+}
+.comida{
+    
+    text-align: center;/* se centra el contenido horizontalmente*/
+    margin: 10px;
+    border-radius: 10px;
+}
+.comida img {
+    height: 250;
+    width: 350px; /* Ajusta el ancho de las imágenes según tus necesidades */
+    border-radius: 10px;
+}
+.comida:hover{
+    color: blanchedalmond;
+}
+p{
+    background-color:burlywood;
+    font-style: italic;
+    padding: 10px;
+    margin: 10px 0; /**/
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+
